@@ -103,6 +103,8 @@
     </Compile>
     <Compile Include="Person.cs" />
     <Compile Include="PersonValidator.cs" />
+    <Compile Include="Pet.cs" />
+    <Compile Include="PetValidator.cs" />
     <Compile Include="ValidatableBindableBase.cs" />
     <Compile Include="ViewModels\MainWindowViewModel.cs" />
     <Compile Include="Views\MainWindow.xaml.cs">

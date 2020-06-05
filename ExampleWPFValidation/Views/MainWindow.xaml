@@ -39,6 +39,8 @@
         <TextBox Padding="7" Text="{Binding Path=Person.FirstName, UpdateSourceTrigger=PropertyChanged}"></TextBox>
         <TextBlock Text="Last Name"></TextBlock>
         <TextBox Padding="7" Text="{Binding Person.LastName, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <TextBlock Text="Pet's Name"></TextBlock>
+        <TextBox Padding="7" Text="{Binding Person.Pet.Name, UpdateSourceTrigger=PropertyChanged}"></TextBox>
         <Button Padding="12" Margin="0,10" Content="Click" Command="{Binding ClickCommand}"></Button>
     </StackPanel>
 </Window>
